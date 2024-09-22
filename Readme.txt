@@ -1,6 +1,1 @@
-Čo je treba nastaviť pred spustením aplikácií (platí pre obe):
-
-1) Nainštalovať vc_redist, ktorý sa nachádza v zložke s .exe súborom.
-2) V súbore config.txt prepísať cesty k databázam, poradie riadkov je treba zachovať. 
-   Pri test_configuration prepísať ešte posledné 2 riadky (TEST a poptavky) - tam sa 
-   budú vytvorené súbory ukladať. Posledný znak nechať lomku.
+The aim of this thesis is to analyse structure of test files used in vibration tests in the CVVOZE testing laboratory and to design and implement a software solution that ensures automation of access to these files. The proposed software solution in the form of a desktop application completely automates the original manual entry and acquisition of test data using the created SQLite databases and provides the test technician with an alternative to the existing RMS software.
