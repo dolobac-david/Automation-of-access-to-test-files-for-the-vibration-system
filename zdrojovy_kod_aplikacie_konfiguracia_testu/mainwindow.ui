@@ -1,0 +1,4368 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>801</width>
+    <height>550</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <widget class="QTabWidget" name="tabWidget">
+    <property name="geometry">
+     <rect>
+      <x>0</x>
+      <y>0</y>
+      <width>811</width>
+      <height>551</height>
+     </rect>
+    </property>
+    <property name="currentIndex">
+     <number>0</number>
+    </property>
+    <widget class="QWidget" name="tab_profiles">
+     <attribute name="title">
+      <string>Profily</string>
+     </attribute>
+     <widget class="QCheckBox" name="checkBox_contract">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>27</y>
+        <width>21</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_6">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>0</y>
+        <width>91</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Typ vibr. profilu:</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_profiles">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>60</y>
+        <width>791</width>
+        <height>161</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="OK_button_filter_profiles">
+      <property name="geometry">
+       <rect>
+        <x>700</x>
+        <y>10</y>
+        <width>41</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>OK</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_filter_inqr_id">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>0</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_2">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>0</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> číslo</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_filter_contract_number">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>30</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_inqr">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>0</y>
+        <width>20</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_filter_inqr_year">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>0</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>0</y>
+        <width>71</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>Sine</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Random</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>Shocks</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_filter_contract_year">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>30</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>0</y>
+        <width>81</width>
+        <height>21</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Vyhledat podle:</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_5">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>30</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>rok</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_4">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>30</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string> číslo</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_3">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>0</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>rok</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_load_profiles">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>0</y>
+        <width>71</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Načíst profily</string>
+      </property>
+     </widget>
+     <widget class="QTableView" name="tableView_common">
+      <property name="geometry">
+       <rect>
+        <x>0</x>
+        <y>230</y>
+        <width>791</width>
+        <height>161</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>410</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vybrat</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_export_common">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>410</y>
+        <width>141</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Zahrnout spodní tabulku </string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_93">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>0</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>poptávky</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_94">
+      <property name="geometry">
+       <rect>
+        <x>600</x>
+        <y>0</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>index</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_filter_inqr_index">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>0</y>
+        <width>31</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_95">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>30</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>zakázky</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_profily_import_karta">
+      <property name="geometry">
+       <rect>
+        <x>250</x>
+        <y>410</y>
+        <width>71</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_control_parameters_random">
+     <attribute name="title">
+      <string>Control parameters random</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_clipping">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>10</y>
+        <width>121</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Clipping</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout">
+       <item>
+        <widget class="QRadioButton" name="radioButton_sigma">
+         <property name="text">
+          <string>2.5 [ Sigma ]</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_3">
+         <property name="text">
+          <string>3</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_3_5">
+         <property name="text">
+          <string>3.5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_4">
+         <property name="text">
+          <string>4</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_5">
+         <property name="text">
+          <string>5</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_Aus">
+         <property name="text">
+          <string>Aus</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_multi_channel">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>250</y>
+        <width>121</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Multi Channel Control</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_2">
+       <item>
+        <widget class="QRadioButton" name="radioButton_average">
+         <property name="text">
+          <string>Average</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_extremal">
+         <property name="text">
+          <string>Extremal</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_middle">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>20</y>
+        <width>261</width>
+        <height>221</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_7">
+         <property name="text">
+          <string>Mass. Test Item [kg]</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_mass_test_item"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_8">
+         <property name="text">
+          <string>Mass. Test Fixture [kg]</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_mass_test_fixture"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_9">
+         <property name="text">
+          <string>Connection with Slip Table</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QCheckBox" name="checkBox_slip_table">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_10">
+         <property name="text">
+          <string>Abort Limit With</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEdit_abort_limit"/>
+       </item>
+       <item row="3" column="2">
+        <widget class="QLabel" name="label_11">
+         <property name="text">
+          <string>Lines</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_12">
+         <property name="text">
+          <string>Warn Limit With</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_warn_limit"/>
+       </item>
+       <item row="4" column="2">
+        <widget class="QLabel" name="label_13">
+         <property name="text">
+          <string>Lines</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_14">
+         <property name="text">
+          <string>Degrees of Freedom (DOF)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="lineEdit_dof"/>
+       </item>
+       <item row="6" column="0">
+        <widget class="QLabel" name="label_15">
+         <property name="text">
+          <string>Pretest Level (mV)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="6" column="1">
+        <widget class="QLineEdit" name="lineEdit_pretest_level"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_levelshift">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>20</y>
+        <width>98</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Levelshift</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_3">
+       <item>
+        <widget class="QRadioButton" name="radioButton_manual">
+         <property name="text">
+          <string>manual</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_auto">
+         <property name="text">
+          <string>auto</string>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_optimized">
+         <property name="text">
+          <string>optimized</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_curve_save">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>250</y>
+        <width>491</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Curve Save</string>
+      </property>
+      <widget class="QCheckBox" name="checkBox_cyclic_every">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>81</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_with_abort_level">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>151</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>with abort level exceeded</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_at_abort">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>121</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>at abort limit crossing</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_with_RMS_limit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>141</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>with RMS limit exceeded</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_random_h">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>90</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_16">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>70</y>
+         <width>16</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>h.</string>
+       </property>
+       <property name="buddy">
+        <cstring>lineEdit_random_h</cstring>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_17">
+       <property name="geometry">
+        <rect>
+         <x>400</x>
+         <y>70</y>
+         <width>21</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>min.</string>
+       </property>
+       <property name="buddy">
+        <cstring>lineEdit_random_min</cstring>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_random_min">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>90</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_18">
+       <property name="geometry">
+        <rect>
+         <x>440</x>
+         <y>70</y>
+         <width>21</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>sec.</string>
+       </property>
+       <property name="buddy">
+        <cstring>lineEdit_random_sec</cstring>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_random_sec">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>90</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_with_abort_level_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>60</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_at_abort_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>80</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_with_RMS_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>180</x>
+         <y>100</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_import_control_parameters_random">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>390</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_random_enable_pos">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>170</y>
+        <width>141</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Enable positive dB values</string>
+      </property>
+     </widget>
+     <widget class="QComboBox" name="comboBox_random_selection_of">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>220</y>
+        <width>201</width>
+        <height>22</height>
+       </rect>
+      </property>
+      <item>
+       <property name="text">
+        <string>0.1                              100</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.2                              200</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>0.5                              500</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>1.0                              1000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>2.0                              2000</string>
+       </property>
+      </item>
+      <item>
+       <property name="text">
+        <string>5.0                              5000</string>
+       </property>
+      </item>
+     </widget>
+     <widget class="QLabel" name="label_19">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>200</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Resolution (Hz)</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_20">
+      <property name="geometry">
+       <rect>
+        <x>580</x>
+        <y>200</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Bandwidth (Hz)</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_control_parameters_sine">
+     <attribute name="title">
+      <string>Control parameters sine</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_sine_amplitude">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>141</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Amplitude</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_4">
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_amplitude_band_limited">
+         <property name="text">
+          <string>Band Limited</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_amplitude_rms_average">
+         <property name="text">
+          <string>RMS-Average</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_amplitude_peak_value">
+         <property name="text">
+          <string>Peak Value</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_sine_sweep_type">
+      <property name="geometry">
+       <rect>
+        <x>180</x>
+        <y>10</y>
+        <width>141</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Sweep-Type</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_5">
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_sweep_log">
+         <property name="text">
+          <string>Log-Sweep</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_sweep_linear">
+         <property name="text">
+          <string>Linear-Sweep</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_sine_multi_channel">
+      <property name="geometry">
+       <rect>
+        <x>350</x>
+        <y>10</y>
+        <width>141</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Multi Channel Control</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_6">
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_average">
+         <property name="text">
+          <string>Average</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_extremal">
+         <property name="text">
+          <string>Extremal</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_sine_start_freq">
+      <property name="geometry">
+       <rect>
+        <x>520</x>
+        <y>10</y>
+        <width>141</width>
+        <height>101</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Start Frequency</string>
+      </property>
+      <layout class="QVBoxLayout" name="verticalLayout_7">
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_freq_lower">
+         <property name="text">
+          <string>Lower</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+       <item>
+        <widget class="QRadioButton" name="radioButton_sine_freq_upper">
+         <property name="text">
+          <string>Upper</string>
+         </property>
+         <property name="checked">
+          <bool>false</bool>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_middle_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>120</y>
+        <width>211</width>
+        <height>271</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_2">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_21">
+         <property name="text">
+          <string>No. of Warn Limit Violations</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_sine_warn_limit"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_22">
+         <property name="text">
+          <string>No. of Abort Limit Violations</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_sine_abort_limit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_29">
+         <property name="text">
+          <string>Pretest Level (mV)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_sine_pretest_level"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_23">
+         <property name="text">
+          <string>Connection with Slip Table</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QCheckBox" name="checkBox_sine_slip_table">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_24">
+         <property name="text">
+          <string>Mass. Test Item [kg]</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QLineEdit" name="lineEdit_sine_mass_item"/>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_25">
+         <property name="text">
+          <string>Mass. Test Fixture [kg]</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="lineEdit_sine_mass_fixture"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox">
+      <property name="geometry">
+       <rect>
+        <x>239</x>
+        <y>120</y>
+        <width>501</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_26">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>127</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Sweep Velocity Oct./min</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_sweep_v">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>58</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_sweep_v">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>10</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_27">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>10</y>
+         <width>81</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Numb. of Cycles</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_numb_of_cycles">
+       <property name="geometry">
+        <rect>
+         <x>360</x>
+         <y>10</y>
+         <width>58</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_numb_of_cycles">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>10</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_28">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Time per Cycle (min)</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_time_per">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>60</y>
+         <width>58</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_time_per">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>60</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_30">
+       <property name="geometry">
+        <rect>
+         <x>260</x>
+         <y>60</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Test Time</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_day">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>60</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_31">
+       <property name="geometry">
+        <rect>
+         <x>310</x>
+         <y>40</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Day</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_hour">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>60</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_32">
+       <property name="geometry">
+        <rect>
+         <x>350</x>
+         <y>40</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>h</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_min">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>60</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_33">
+       <property name="geometry">
+        <rect>
+         <x>390</x>
+         <y>40</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>min.</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_sec">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>60</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_34">
+       <property name="geometry">
+        <rect>
+         <x>430</x>
+         <y>40</y>
+         <width>21</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>sec.</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_test_time">
+       <property name="geometry">
+        <rect>
+         <x>470</x>
+         <y>60</y>
+         <width>21</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string/>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_sine_calculate">
+       <property name="geometry">
+        <rect>
+         <x>380</x>
+         <y>90</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Calculate</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_curve_save_2">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>260</y>
+        <width>501</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Curve Save</string>
+      </property>
+      <widget class="QCheckBox" name="checkBox_sine_cyclic_savings_every">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>121</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_with_abort_level">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>151</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>with abort level exceeded</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_at_abort">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>121</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>at abort limit crossing</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_with_acceleration_limit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>171</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>with acceleration limit exceeded</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_sine_cycle">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>80</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_35">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>80</y>
+         <width>31</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cycle</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_with_abort_level_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>60</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_at_abort_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_sine_with_acceleration_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>100</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_sine_import">
+      <property name="geometry">
+       <rect>
+        <x>670</x>
+        <y>400</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_control_parameters_shock">
+     <attribute name="title">
+      <string>Control parameters shock</string>
+     </attribute>
+     <widget class="QGroupBox" name="groupBox_2">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>211</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLabel" name="label_37">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>20</y>
+         <width>103</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Shock Number (Total)</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_number">
+       <property name="geometry">
+        <rect>
+         <x>119</x>
+         <y>20</y>
+         <width>82</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_38">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>84</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Number per. Sec.</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_number_per_sec">
+       <property name="geometry">
+        <rect>
+         <x>119</x>
+         <y>60</y>
+         <width>82</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_39">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>89</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Shock-Distance [s]</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_distance">
+       <property name="geometry">
+        <rect>
+         <x>119</x>
+         <y>100</y>
+         <width>82</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_40">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>140</y>
+         <width>85</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>approx. Test time</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_test_time">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>170</y>
+         <width>191</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QPushButton" name="pushButton_shock_calculate">
+       <property name="geometry">
+        <rect>
+         <x>119</x>
+         <y>200</y>
+         <width>75</width>
+         <height>23</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Calculate</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_3">
+      <property name="geometry">
+       <rect>
+        <x>240</x>
+        <y>10</y>
+        <width>221</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_4">
+       <item row="0" column="0">
+        <widget class="QLabel" name="label_41">
+         <property name="text">
+          <string>No. of Warn Limit violations</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QLineEdit" name="lineEdit_shock_warn_limit_violations"/>
+       </item>
+       <item row="1" column="0">
+        <widget class="QLabel" name="label_42">
+         <property name="text">
+          <string>No. of Abort Limit violations</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QLineEdit" name="lineEdit_shock_abort_limit"/>
+       </item>
+       <item row="2" column="0">
+        <widget class="QLabel" name="label_43">
+         <property name="text">
+          <string>Mass. Test Fixture [kg]</string>
+         </property>
+        </widget>
+       </item>
+       <item row="2" column="1">
+        <widget class="QLineEdit" name="lineEdit_shock_mass_test_fixture"/>
+       </item>
+       <item row="3" column="0">
+        <widget class="QLabel" name="label_44">
+         <property name="text">
+          <string>Mass. Test Item [kg]</string>
+         </property>
+        </widget>
+       </item>
+       <item row="3" column="1">
+        <widget class="QLineEdit" name="lineEdit_shock_mass_test_item"/>
+       </item>
+       <item row="4" column="0">
+        <widget class="QLabel" name="label_47">
+         <property name="text">
+          <string>Connection with Slip Table</string>
+         </property>
+        </widget>
+       </item>
+       <item row="4" column="1">
+        <widget class="QCheckBox" name="checkBox_shock_slip_table">
+         <property name="text">
+          <string/>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="0">
+        <widget class="QLabel" name="label_45">
+         <property name="text">
+          <string>Pre-Test Level (mV)</string>
+         </property>
+        </widget>
+       </item>
+       <item row="5" column="1">
+        <widget class="QLineEdit" name="lineEdit_shock_pre_test_level"/>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_pre_shock_level">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>10</y>
+        <width>161</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pre-Shock Level</string>
+      </property>
+      <layout class="QGridLayout" name="gridLayout_5">
+       <item row="0" column="0">
+        <widget class="QRadioButton" name="radioButton_shock_0_75">
+         <property name="text">
+          <string>0.75 dB</string>
+         </property>
+        </widget>
+       </item>
+       <item row="0" column="1">
+        <widget class="QRadioButton" name="radioButton_shock_1_5">
+         <property name="text">
+          <string>1.5 dB</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="0">
+        <widget class="QRadioButton" name="radioButton_shock_3">
+         <property name="text">
+          <string>3 dB</string>
+         </property>
+        </widget>
+       </item>
+       <item row="1" column="1">
+        <widget class="QRadioButton" name="radioButton_shock_6">
+         <property name="text">
+          <string>6 dB</string>
+         </property>
+        </widget>
+       </item>
+      </layout>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_shock_curve_save">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>270</y>
+        <width>451</width>
+        <height>131</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Curve Save</string>
+      </property>
+      <widget class="QCheckBox" name="checkBox_shock_cyclic_savings_every">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>121</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_shock_with_abort_level">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>60</y>
+         <width>151</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>with abort level exceeded</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_shock_at_abort">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>80</y>
+         <width>121</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>at abort limit crossing</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_shock_with_acceleration_limit">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>171</width>
+         <height>17</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>with acceleration limit exceeded</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_curve_save_shocks">
+       <property name="geometry">
+        <rect>
+         <x>370</x>
+         <y>80</y>
+         <width>31</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_48">
+       <property name="geometry">
+        <rect>
+         <x>410</x>
+         <y>80</y>
+         <width>41</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Shocks</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_shock_with_abort_level_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>60</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_shock_at_abort_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>80</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+      <widget class="QCheckBox" name="checkBox_shock_with_acceleration_cyclic_savings">
+       <property name="geometry">
+        <rect>
+         <x>210</x>
+         <y>100</y>
+         <width>151</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>cyclic savings, every</string>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_shock_import">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>410</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_shock_inverted">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>150</y>
+        <width>91</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Shock Inverted</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_shock_pre_post">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>180</y>
+        <width>321</width>
+        <height>121</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Pre- / Post-Shocks</string>
+      </property>
+      <widget class="QLabel" name="label_49">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>30</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Amplitude pos. [%]</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_50">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>101</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Amplitude neg. [%]</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_51">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>10</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Pre Shock</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_52">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>10</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Post Shock</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_positive_pre_shock">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>30</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_positive_post_shock">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>30</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_negative_pre_shock">
+       <property name="geometry">
+        <rect>
+         <x>140</x>
+         <y>70</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_negative_post_shock">
+       <property name="geometry">
+        <rect>
+         <x>240</x>
+         <y>70</y>
+         <width>63</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_4">
+      <property name="geometry">
+       <rect>
+        <x>480</x>
+        <y>310</y>
+        <width>321</width>
+        <height>91</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string>Limits / Standard</string>
+      </property>
+      <widget class="QComboBox" name="comboBox_shock_standard">
+       <property name="geometry">
+        <rect>
+         <x>20</x>
+         <y>50</y>
+         <width>101</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>MIL-STD-810C</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>DIN-IEC-68</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>VG-96-332</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>free</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QLabel" name="label_53">
+       <property name="geometry">
+        <rect>
+         <x>30</x>
+         <y>30</y>
+         <width>47</width>
+         <height>13</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Standard</string>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_54">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>30</y>
+         <width>61</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>Warn Limit.</string>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_shock_warn_limit">
+       <property name="geometry">
+        <rect>
+         <x>150</x>
+         <y>50</y>
+         <width>41</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLabel" name="label_55">
+       <property name="geometry">
+        <rect>
+         <x>200</x>
+         <y>50</y>
+         <width>121</width>
+         <height>16</height>
+        </rect>
+       </property>
+       <property name="text">
+        <string>% apart from Abort Limit</string>
+       </property>
+      </widget>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_snimace">
+     <attribute name="title">
+      <string>Input channels</string>
+     </attribute>
+     <widget class="QLabel" name="label_56">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>60</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 1</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_57">
+      <property name="geometry">
+       <rect>
+        <x>60</x>
+        <y>20</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Type of Input</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_58">
+      <property name="geometry">
+       <rect>
+        <x>170</x>
+        <y>20</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sensitivity</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_59">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>20</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Unit</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_60">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>40</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Lower</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_61">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>40</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Upper</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_62">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>20</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Limits</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_63">
+      <property name="geometry">
+       <rect>
+        <x>640</x>
+        <y>20</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Info Text</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_64">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 2</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_65">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>120</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 3</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_66">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>150</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 4</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_67">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>180</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 5</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_68">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>210</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 6</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_69">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>240</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 7</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_70">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>270</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Ch. 8</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_snimace_import">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>320</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_type_of_input">
+      <property name="geometry">
+       <rect>
+        <x>50</x>
+        <y>50</y>
+        <width>81</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_snimace_ch1_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>10</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch2_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>40</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch3_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>70</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch4_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>100</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch5_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>130</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch6_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>160</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch7_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>190</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch8_type_of_input">
+       <property name="geometry">
+        <rect>
+         <x>10</x>
+         <y>220</y>
+         <width>69</width>
+         <height>20</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>Off</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Abort</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Control</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>Measure</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_sensitivity">
+      <property name="geometry">
+       <rect>
+        <x>140</x>
+        <y>50</y>
+        <width>61</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch2_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch1_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch3_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>70</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch4_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch5_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>130</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch6_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch7_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>190</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch8_sensitivity">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>220</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_sensitivity_unit">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>50</y>
+        <width>61</width>
+        <height>251</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch1_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>10</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch2_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>40</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch3_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>70</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch4_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>100</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch5_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>130</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch6_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>160</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch7_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>190</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch8_sensitivity_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>220</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_unit">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>60</y>
+        <width>31</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QComboBox" name="comboBox_snimace_ch1_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch2_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch3_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch4_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch5_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch6_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch7_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+      <widget class="QComboBox" name="comboBox_snimace_ch8_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>31</width>
+         <height>21</height>
+        </rect>
+       </property>
+       <item>
+        <property name="text">
+         <string>a</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>v</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>d</string>
+        </property>
+       </item>
+       <item>
+        <property name="text">
+         <string>?</string>
+        </property>
+       </item>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_limits_lower">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>60</y>
+        <width>51</width>
+        <height>241</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch1_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch2_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch3_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch4_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch5_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch6_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch7_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch8_limits_lower">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_limits_lower_unit">
+      <property name="geometry">
+       <rect>
+        <x>380</x>
+        <y>60</y>
+        <width>61</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch1_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch2_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch3_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch4_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch5_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch6_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch7_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch8_limits_lower_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>61</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_limits_upper">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>60</y>
+        <width>51</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch1_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch2_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch3_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch4_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch5_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch6_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch7_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch8_limits_upper">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_limits_upper_unit">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>60</y>
+        <width>51</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch1_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch2_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch3_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch4_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch5_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch6_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch7_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch8_limits_upper_unit">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>51</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QGroupBox" name="groupBox_snimace_info_text">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>60</y>
+        <width>211</width>
+        <height>231</height>
+       </rect>
+      </property>
+      <property name="title">
+       <string/>
+      </property>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch1_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>0</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch2_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>30</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch3_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>60</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch4_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>90</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch5_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>120</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch6_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>150</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch7_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>180</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+      <widget class="QLineEdit" name="lineEdit_snimace_ch8_info_text">
+       <property name="geometry">
+        <rect>
+         <x>0</x>
+         <y>210</y>
+         <width>211</width>
+         <height>20</height>
+        </rect>
+       </property>
+      </widget>
+     </widget>
+     <widget class="QPushButton" name="pushButton_snimace_refresh">
+      <property name="geometry">
+       <rect>
+        <x>470</x>
+        <y>320</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Refresh</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_level">
+     <attribute name="title">
+      <string>Level </string>
+     </attribute>
+     <widget class="QTableView" name="tableView_level">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>211</width>
+        <height>421</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_36">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>180</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Level [dB]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_71">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>180</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Days</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_72">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>180</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>h</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_73">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>180</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Min</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_74">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>180</y>
+        <width>47</width>
+        <height>13</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Sec</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_level">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>200</y>
+        <width>91</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_level_days">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>200</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_level_hours">
+      <property name="geometry">
+       <rect>
+        <x>440</x>
+        <y>200</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_level_minutes">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>200</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_level_seconds">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>200</y>
+        <width>31</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_level_new">
+      <property name="geometry">
+       <rect>
+        <x>260</x>
+        <y>240</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_level_delete">
+      <property name="geometry">
+       <rect>
+        <x>360</x>
+        <y>240</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_level_import">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>240</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+     <zorder>pushButton_level_import</zorder>
+     <zorder>tableView_level</zorder>
+     <zorder>label_36</zorder>
+     <zorder>label_71</zorder>
+     <zorder>label_72</zorder>
+     <zorder>label_73</zorder>
+     <zorder>label_74</zorder>
+     <zorder>lineEdit_level</zorder>
+     <zorder>lineEdit_level_days</zorder>
+     <zorder>lineEdit_level_hours</zorder>
+     <zorder>lineEdit_level_minutes</zorder>
+     <zorder>lineEdit_level_seconds</zorder>
+     <zorder>pushButton_level_new</zorder>
+     <zorder>pushButton_level_delete</zorder>
+    </widget>
+    <widget class="QWidget" name="tab_tolerance">
+     <attribute name="title">
+      <string>Tolerance band </string>
+     </attribute>
+     <widget class="QTableView" name="tableView_tolerance">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>10</y>
+        <width>361</width>
+        <height>301</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_75">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>350</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Time [%]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_76">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>350</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Abort Limit pos. [%]</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_77">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>350</y>
+        <width>101</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Abort Limit neg. [%]</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_tolerance_time">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>370</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_tolerance_abort_pos">
+      <property name="geometry">
+       <rect>
+        <x>150</x>
+        <y>370</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_tolerance_abort_neg">
+      <property name="geometry">
+       <rect>
+        <x>270</x>
+        <y>370</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_tolerance_new">
+      <property name="geometry">
+       <rect>
+        <x>30</x>
+        <y>400</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>New</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_tolerance_delete">
+      <property name="geometry">
+       <rect>
+        <x>110</x>
+        <y>400</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Delete</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_tolerance_import">
+      <property name="geometry">
+       <rect>
+        <x>190</x>
+        <y>400</y>
+        <width>75</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+    </widget>
+    <widget class="QWidget" name="tab_export">
+     <attribute name="title">
+      <string>Export</string>
+     </attribute>
+     <widget class="QPushButton" name="pushButton_export_create_test_file">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>440</y>
+        <width>131</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vytvořit soubor</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_78">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>170</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Testovací osa</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_test_axis">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>200</y>
+        <width>61</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_file_name">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>320</y>
+        <width>511</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_79">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>300</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Název  souboru</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_80">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>170</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Identifikace testu </string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_identity_of_test">
+      <property name="geometry">
+       <rect>
+        <x>100</x>
+        <y>200</y>
+        <width>81</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_81">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>170</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Datum zkoušky </string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_date">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>200</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_test_item_selection">
+      <property name="geometry">
+       <rect>
+        <x>430</x>
+        <y>200</y>
+        <width>51</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vybrat</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_export_test_item">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>190</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Zkušební položka</string>
+      </property>
+     </widget>
+     <widget class="QRadioButton" name="radioButton_export_test_arrangement">
+      <property name="geometry">
+       <rect>
+        <x>320</x>
+        <y>210</y>
+        <width>101</width>
+        <height>17</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Zkušební sestava</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_84">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>180</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Číslo položky</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_test_item_number">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>200</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_85">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>180</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rok položky</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_test_item_year">
+      <property name="geometry">
+       <rect>
+        <x>610</x>
+        <y>200</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_86">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>230</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Pořadí sestavy</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_test_arrangement_order">
+      <property name="geometry">
+       <rect>
+        <x>490</x>
+        <y>250</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_87">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>180</y>
+        <width>71</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>YYYY/MM/DD</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_test_year">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>110</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_88">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>90</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Rok testu</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_89">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>90</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Číslo testu</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_test_number">
+      <property name="geometry">
+       <rect>
+        <x>90</x>
+        <y>110</y>
+        <width>51</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_90">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>90</y>
+        <width>61</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Název firmy</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_company_name">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>110</y>
+        <width>101</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_91">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>70</y>
+        <width>71</width>
+        <height>20</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Číslo zakázky</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_company_order">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>110</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_generate">
+      <property name="geometry">
+       <rect>
+        <x>160</x>
+        <y>30</y>
+        <width>261</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Použít jako šablonu pro další test / Nové číslo testu</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_insert_info_to_test_parameters">
+      <property name="geometry">
+       <rect>
+        <x>10</x>
+        <y>350</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_load_info_from_test_parameters">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>30</y>
+        <width>101</width>
+        <height>31</height>
+       </rect>
+      </property>
+      <property name="font">
+       <font>
+        <pointsize>8</pointsize>
+       </font>
+      </property>
+      <property name="text">
+       <string>Import</string>
+      </property>
+     </widget>
+     <widget class="QCheckBox" name="checkBox_export_create_file_out">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>470</y>
+        <width>161</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Vytvořit soubor mimo adresář</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_logbook_times">
+      <property name="geometry">
+       <rect>
+        <x>310</x>
+        <y>440</y>
+        <width>181</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Uložit čas začátku a konce zkoušky</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_92">
+      <property name="geometry">
+       <rect>
+        <x>70</x>
+        <y>490</y>
+        <width>91</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>(do C:/home/user)</string>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_save_actual_parameters">
+      <property name="geometry">
+       <rect>
+        <x>570</x>
+        <y>440</y>
+        <width>201</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Uložit skutečné parametry testu do DB</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_change_alert">
+      <property name="geometry">
+       <rect>
+        <x>550</x>
+        <y>470</y>
+        <width>241</width>
+        <height>21</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_96">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>70</y>
+        <width>51</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Poptávka</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_97">
+      <property name="geometry">
+       <rect>
+        <x>400</x>
+        <y>90</y>
+        <width>16</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>rok</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_inquiry_year">
+      <property name="geometry">
+       <rect>
+        <x>390</x>
+        <y>110</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_98">
+      <property name="geometry">
+       <rect>
+        <x>460</x>
+        <y>90</y>
+        <width>21</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>číslo</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_99">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>90</y>
+        <width>31</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>index</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_inquiry_number">
+      <property name="geometry">
+       <rect>
+        <x>450</x>
+        <y>110</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_inquiry_index">
+      <property name="geometry">
+       <rect>
+        <x>510</x>
+        <y>110</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_date">
+      <property name="geometry">
+       <rect>
+        <x>200</x>
+        <y>230</y>
+        <width>81</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Dnešní datum</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_100">
+      <property name="geometry">
+       <rect>
+        <x>280</x>
+        <y>90</y>
+        <width>81</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>pro firmu v roce</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_actual_test_number_year">
+      <property name="geometry">
+       <rect>
+        <x>20</x>
+        <y>140</y>
+        <width>121</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string/>
+      </property>
+     </widget>
+     <widget class="QPushButton" name="pushButton_export_duplicate">
+      <property name="geometry">
+       <rect>
+        <x>210</x>
+        <y>350</y>
+        <width>111</width>
+        <height>23</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Duplikovat záznam</string>
+      </property>
+     </widget>
+     <widget class="QLabel" name="label_82">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>300</y>
+        <width>41</width>
+        <height>16</height>
+       </rect>
+      </property>
+      <property name="text">
+       <string>Přípona</string>
+      </property>
+     </widget>
+     <widget class="QLineEdit" name="lineEdit_export_postfix">
+      <property name="geometry">
+       <rect>
+        <x>540</x>
+        <y>320</y>
+        <width>41</width>
+        <height>20</height>
+       </rect>
+      </property>
+     </widget>
+    </widget>
+   </widget>
+   <widget class="QLabel" name="label_46">
+    <property name="geometry">
+     <rect>
+      <x>670</x>
+      <y>590</y>
+      <width>132</width>
+      <height>20</height>
+     </rect>
+    </property>
+    <property name="text">
+     <string>Mass. Test Item [kg]</string>
+    </property>
+   </widget>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

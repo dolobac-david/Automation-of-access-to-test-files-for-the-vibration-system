@@ -1,0 +1,5 @@
+C:/Users/David D/Desktop/bakalarka/databazy_03/test_profiles.sqlite
+C:/Users/David D/Desktop/bakalarka/databazy_03/tests_parameters.sqlite
+C:/Users/David D/Desktop/bakalarka/databazy_03/Z_31_Kniha_zakazek_ZL1.sqlite
+C:/Users/David D/Desktop/TEST/
+C:/Users/David D/Desktop/poptavky/

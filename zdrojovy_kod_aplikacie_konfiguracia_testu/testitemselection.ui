@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>TestItemSelection</class>
+ <widget class="QWidget" name="TestItemSelection">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1100</width>
+    <height>354</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <widget class="QTableView" name="tableView_test_item_selection">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1101</width>
+     <height>261</height>
+    </rect>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_test_item_select">
+   <property name="geometry">
+    <rect>
+     <x>880</x>
+     <y>270</y>
+     <width>131</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vybrat testovací položku</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_export_close">
+   <property name="geometry">
+    <rect>
+     <x>1020</x>
+     <y>270</y>
+     <width>71</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Zavřít</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="pushButton_test_arrangement_select">
+   <property name="geometry">
+    <rect>
+     <x>710</x>
+     <y>270</y>
+     <width>161</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>Vybrat pořadí testovací sestavy</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections>
+  <connection>
+   <sender>pushButton_export_close</sender>
+   <signal>clicked()</signal>
+   <receiver>TestItemSelection</receiver>
+   <slot>close()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1044</x>
+     <y>279</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1035</x>
+     <y>310</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+</ui>
